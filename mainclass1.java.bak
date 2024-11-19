@@ -1,0 +1,23 @@
+class sbibank
+{
+private int accno=2344;
+public int get accno()
+{
+return accno;
+}
+public void set accno(int accno)
+{
+This.accno=accno;
+}
+}
+class mainclass1
+{
+public static void main(String[] args)
+{
+sbibank s1=new sbibank();
+int x=s1.get accno();
+System.out.println(x);
+s1.set accno(2678);
+System.out.println(s1.get accno());
+}
+}
